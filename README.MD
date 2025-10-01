@@ -165,14 +165,6 @@ carparking/
 - Real-time API for parking availability
 - Mobile app integration
 
-## Technical Requirements
-
-- **Python**: 3.7 or higher
-- **OpenCV**: 4.5.0 or higher
-- **NumPy**: 1.19.0 or higher
-- **Storage**: ~2GB for video files
-- **RAM**: 8GB recommended
-
 ## License
 
 This project is developed for educational purposes as part of a computer vision course assignment.
