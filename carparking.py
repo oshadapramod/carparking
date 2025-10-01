@@ -164,7 +164,7 @@ class ParkingDetectorFromJSON:
         print("=" * 60)
         
         if not self.slots:
-            print("❌ No slots loaded. Load slots first.")
+            print("No slots loaded. Load slots first.")
             return
         
         # Get reference frame
@@ -463,7 +463,7 @@ def main():
     json_path = "parking_slots.json"
     
     if not Path(json_path).exists():
-        print(f"\n❌ Error: {json_path} not found!")
+        print(f"\nError: {json_path} not found!")
         print("Please ensure parking_slots.json is in the current directory")
         return
     
